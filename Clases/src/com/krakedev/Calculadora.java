@@ -1,0 +1,49 @@
+package com.krakedev;
+
+public class Calculadora {
+	
+	public double sumar(int a, int b) {
+		
+		double resultado;
+		resultado = a + b;
+		
+		return resultado;
+		
+		
+	}
+	public int restar(int a, int b) {
+		int resultado;
+		resultado = a - b;
+		
+		return resultado;
+		 
+	}
+	
+	public double multiplicar(double a, double b) {
+		
+		double resultado;
+		resultado = a * b;
+		
+		return resultado;
+		
+	}
+	
+	public double dividir(double a, double b) {
+		
+		double resultado;
+		resultado = a / b;
+		
+		return resultado;
+	}
+	
+	public double promediar(double a , double b, double c) {
+		double resultado;
+		resultado = (a + b + c)/3.0;
+		
+		return resultado;
+	}
+	
+	public void mostrarResultado() {
+		System.out.println("Ahorita no joven, salí al almuerzo. Regreso en 15 minutos");
+	}
+}
