@@ -6,7 +6,7 @@ public class TestCuadrado {
 		// TODO Auto-generated method stub
 		Cuadrado c1 = new Cuadrado();
 		
-		c1.lado = 4;
+		c1.setLado(4);
 		
 		double resultadoArea;
 		
@@ -22,7 +22,7 @@ public class TestCuadrado {
 		//////////////////////////////////////////////////////////////////////
 		Cuadrado c2 = new Cuadrado();
 		
-		c2.lado = 3;
+		c2.setLado(3);
 		
 		double resultadoArea2;
 		
@@ -39,7 +39,7 @@ public class TestCuadrado {
 //////////////////////////////////////////////////////////////////////
 		Cuadrado c3 = new Cuadrado();
 		
-		c3.lado = 6;
+		c3.setLado(0); 
 		
 		double resultadoArea3;
 		
