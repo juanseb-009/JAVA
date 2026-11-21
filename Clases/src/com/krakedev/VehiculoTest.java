@@ -45,6 +45,17 @@ public class VehiculoTest {
 		System.out.println("Modelo:" + v2.getModelo());
 		
 		
+		System.out.println("Vehiculo 3 : Valores asignados");
+		Vehiculo v3 = new Vehiculo("Toyota");
+		System.out.println("Año:" + v3.getAnio());
+		System.out.println("Marca:" + v3.getMarca());
+		System.out.println("Modelo:" + v3.getModelo());
+		
+		System.out.println("Vehiculo 4 : Valores asignados");
+		Vehiculo v4 = new Vehiculo("Toyota","El mas chevere","2011");
+		System.out.println("Año:" + v4.getAnio());
+		System.out.println("Marca:" + v4.getMarca());
+		System.out.println("Modelo:" + v4.getModelo());
 
 	}
 
