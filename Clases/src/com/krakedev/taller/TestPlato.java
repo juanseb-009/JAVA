@@ -6,75 +6,49 @@ public class TestPlato {
 		// TODO Auto-generated method stub
 		
 		Plato pA;
-		pA = new Plato();
-		System.out.println("Plato 1 : Creado");
+		pA = new Plato("Sanwich Ingles", "Desayuno", 5, false);
+		System.out.println("Plato 1 : Valores Asignados");
 		
 		
-		System.out.println("Nombre:" + pA.nombre);
-		System.out.println("Tipo:" + pA.tipo);
-		System.out.println("Precio:" + pA.precio);
-		System.out.println("Disponible" + pA.disponible);
-		
-		System.out.println("Plato 1 : Valores asignados");
-
-		pA.nombre = "Sandwich Ingles";
-		pA.tipo = "Desayuno";
-		pA.precio = 5;
-		pA.disponible = false;
-		
-		System.out.println("Nombre: " + pA.nombre);
-		System.out.println("Tipo: " + pA.tipo);
-		System.out.println("Precio: " + pA.precio);
-		System.out.println("Disponible: " + pA.disponible);
+		System.out.println("Nombre: " + pA.getNombre());
+		System.out.println("Tipo: " + pA.getTipo());
+		System.out.println("Precio: " + pA.getPrecio());
+		System.out.println("Disponible " + pA.isDisponible());
 		
 		
 		
 		Plato pB;
-		pB = new Plato();
-		System.out.println("Plato 2 : Creado");
+		pB = new Plato("Filete con papas", "Almuerzo", 10, true);
+		System.out.println("Plato 2 : Valores Asignados");
 		
 		
-		System.out.println("Nombre:" + pB.nombre);
-		System.out.println("Tipo:" + pB.tipo);
-		System.out.println("Precio:" + pB.precio);
-		System.out.println("Disponible" + pB.disponible);
+		System.out.println("Nombre: " + pB.getNombre());
+		System.out.println("Tipo: " + pB.getTipo());
+		System.out.println("Precio: " + pB.getPrecio());
+		System.out.println("Disponible: " + pB.isDisponible());
 		
-		System.out.println("Plato 2 : Valores asignados");
-
-		pB.nombre = "Filete de carne con papas fritas";
-		pB.tipo = "Almuerzo";
-		pB.precio = 10;
-		pB.disponible = true;
-		
-		System.out.println("Nombre: " + pB.nombre);
-		System.out.println("Tipo: " + pB.tipo);
-		System.out.println("Precio: " + pB.precio);
-		System.out.println("Disponible: " + pB.disponible);
 		
 		
 		
 		Plato pC;
-		pC = new Plato();
-		System.out.println("Plato 3 : Creado");
+		pC = new Plato("Empanada con cafe", "Cena", 6, true);
+		System.out.println("Plato 3 : Valores Asignados");
 		
 		
-		System.out.println("Nombre:" + pC.nombre);
-		System.out.println("Tipo:" + pC.tipo);
-		System.out.println("Precio:" + pC.precio);
-		System.out.println("Disponible" + pC.disponible);
+		System.out.println("Nombre: " + pC.getNombre());
+		System.out.println("Tipo: " + pC.getTipo());
+		System.out.println("Precio: " + pC.getPrecio());
+		System.out.println("Disponible: " + pC.isDisponible());
 		
-		System.out.println("Plato 3 : Valores asignados");
-
-		pC.nombre = "Empanada de viento con cafe";
-		pC.tipo = "Cena";
-		pC.precio = 6;
-		pC.disponible = true;
 		
-		System.out.println("Nombre: " + pC.nombre);
-		System.out.println("Tipo: " + pC.tipo);
-		System.out.println("Precio: " + pC.precio);
-		System.out.println("Disponible: " + pC.disponible);
+		Plato p4;
+		System.out.println("Vehiculo 4 : Valores asignados");
+		p4 = new Plato("Hamburguesa de pollo");
 		
+		System.out.println("Nombre: " + p4.getNombre());
+		System.out.println("Tipo: " + p4.getTipo());
+		System.out.println("Precio: " + p4.getPrecio());
+		System.out.println("Disponible: " + p4.isDisponible());
 		
 		
 
